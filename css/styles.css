@@ -1,13 +1,27 @@
-/* ===========================
-   Base styles
-   =========================== */
+/* Style.css */
+* {
+  box-sizing: border-box;
+}
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-/* ===========================
-   Custom styles
-   =========================== */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
 
+h1 {
+  font-size: 36px;
+}
 
-/* ===========================
-   Helper classes
-   =========================== */
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
